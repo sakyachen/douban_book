@@ -10,6 +10,7 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 
 # 以下为基本配置项，获取代理和浏览器信息
+#test commit
 mdir = sys.path[0]+'/'
 proxy_list = codecs.open(mdir + 'proxy_list.csv', 'r', 'utf8')
 myproxies = proxy_list.read().split("\n")
