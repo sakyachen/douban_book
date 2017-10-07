@@ -1,5 +1,6 @@
 item/
 web/
 backup/
-*.out
 *.csv
+*.out
+*.txt
